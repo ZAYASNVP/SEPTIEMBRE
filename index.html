@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerberas Amarillas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Responde las preguntas y verás algo especial</h1>
+        <div class="questions">
+            <label for="colorPicker">¿Cuál es tu color favorito?</label>
+            <input type="color" id="colorPicker" value="#FFD300"> <!-- Color por defecto amarillo -->
+
+            <label for="q2">¿Cuál es tu flor favorita?</label>
+            <input type="text" id="q2" placeholder="Escribe aquí...">
+
+            <button onclick="mostrarGerberas()">Enviar</button>
+        </div>
+
+        <div id="gerberas" class="hidden">
+            <h2>Hola, antes que nada quiero comenzar diciendo que busqué el significado del porque flores amarillas este 21 de septiembre, muchos dicen que es por perdón de algún error, aún engaño, etc. 
+                <br>
+                Otros dicen que es el recordatorio de un nuevo comienzo, el inicio de la primavera en otro hemisferio. 
+                <br>
+                Realmente no obtuve una respuesta clara, pero entonces hoy quiero darte o mostrarte esto en cada respuesta:
+                <hr>
+                1. Pido perdón, perdón por todo lo malo que ha pasado, pido perdón por no poder ser lo suficiente para ti, pero lo intentaré, pido perdón por dejar de darte atención, pido perdón por todo esto.
+                <hr>
+                2. Si se trata de un nuevo comienzo, entonces lo tendremos, esperando tener razón en mi decisión y creyendo en ti, todo puede pasar, pero estoy dispuesto a darte ese nuevo comienzo.
+                <hr>
+                3. Y si es el inicio de la primavera en otro hemisferio, entonces feliz inicio de primavera.
+                <hr>
+                Te quiero mucho y espero te guste, sé que te gustan las gerberas, y personalmente te he regalado rosas y demás. Hoy es una nueva flor y aunque no es física... 
+                <br>Es muy especial, te quiero mucho ❤️
+            </h2>
+            <div class="flowers"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
